@@ -82,15 +82,12 @@ export const SkillsSection = () => {
 
         {/* Legend */}
         <div className="text-center mb-8">
-          <h4 className="text-md font-medium text-muted-foreground mb-2">
-            Experience Level Legend
-          </h4>
           <div className="flex justify-center gap-4 flex-wrap text-sm text-muted-foreground">
-            <span>1 = Beginner</span>
-            <span>2 = Learning</span>
-            <span>3 = Intermediate</span>
-            <span>4 = Advanced</span>
-            <span>5 = Expert</span>
+            <span>1 - Beginner</span>
+            <span>2 - Learning</span>
+            <span>3 - Intermediate</span>
+            <span>4 - Advanced</span>
+            <span>5 - Expert</span>
           </div>
         </div>
 
