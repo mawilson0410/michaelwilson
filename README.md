@@ -6,7 +6,7 @@ Welcome to my personal developer portfolio, built using **React**, **TypeScript*
 
 ## 📸 Screenshot
 
-![Portfolio Screenshot](./screenshot.png)
+![Portfolio Screenshot](./publics/projects/portfolio_page.png)
 
 > Replace this image with an actual screenshot of your deployed site, named `screenshot.png` and placed in the root of the project.
 
