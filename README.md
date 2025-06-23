@@ -6,7 +6,7 @@ Welcome to my personal developer portfolio, built using **React**, **TypeScript*
 
 ## 📸 Screenshot
 
-![Portfolio Screenshot](./public/projects/portfolio_page.png)
+![Portfolio Screenshot](/public/projects/portfolio_page.png)
 
 ---
 
