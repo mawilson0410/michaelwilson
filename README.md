@@ -6,17 +6,14 @@ Welcome to my personal developer portfolio, built using **React**, **TypeScript*
 
 ## 📸 Screenshot
 
-![Portfolio Screenshot](./publics/projects/portfolio_page.png)
-
-> Replace this image with an actual screenshot of your deployed site, named `screenshot.png` and placed in the root of the project.
+![Portfolio Screenshot](./public/projects/portfolio_page.png)
 
 ---
 
 ## 🚀 Live Website
 
 Check out the live site here:  
-👉 [https://your-username.github.io/portfolio](https://your-username.github.io/portfolio)  
-> Replace with your actual GitHub Pages or domain URL.
+👉 [https://michaelawilson.vercel.app/](https://michaelawilson.vercel.app/)
 
 ---
 
