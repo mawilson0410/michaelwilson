@@ -3,49 +3,48 @@ import { cn } from "../lib/utils";
 
 type Skill = {
   name: string;
-  level: number;
   category: string;
-  experienceLevel: number;
+  experienceLevel: number; // 1 to 5
 };
 
 const skills: Skill[] = [
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend", experienceLevel: 4 },
-  { name: "JavaScript", level: 90, category: "frontend", experienceLevel: 4 },
-  { name: "React", level: 90, category: "frontend", experienceLevel: 4 },
-  { name: "TypeScript", level: 90, category: "frontend", experienceLevel: 4 },
-  { name: "Tailwind CSS", level: 75, category: "frontend", experienceLevel: 3 },
-  { name: "React Native", level: 50, category: "frontend", experienceLevel: 2 },
-  { name: "Next.js", level: 60, category: "frontend", experienceLevel: 2 },
-  { name: "DaisyUI", level: 70, category: "frontend", experienceLevel: 3 },
+  { name: "HTML/CSS", category: "frontend", experienceLevel: 4 },
+  { name: "JavaScript", category: "frontend", experienceLevel: 4 },
+  { name: "React", category: "frontend", experienceLevel: 4 },
+  { name: "TypeScript", category: "frontend", experienceLevel: 4 },
+  { name: "Tailwind CSS", category: "frontend", experienceLevel: 3 },
+  { name: "React Native", category: "frontend", experienceLevel: 2 },
+  { name: "Next.js", category: "frontend", experienceLevel: 2 },
+  { name: "DaisyUI", category: "frontend", experienceLevel: 3 },
 
   // Backend
-  { name: "Java", level: 90, category: "backend", experienceLevel: 4 },
-  { name: "C++", level: 85, category: "backend", experienceLevel: 4 },
-  { name: "Python", level: 85, category: "backend", experienceLevel: 4 },
-  { name: "API Dev", level: 70, category: "backend", experienceLevel: 3 },
-  { name: "Django", level: 85, category: "backend", experienceLevel: 4 },
-  { name: "Java Spring", level: 55, category: "backend", experienceLevel: 2 },
-  { name: "Node.js", level: 85, category: "backend", experienceLevel: 4 },
-  { name: "Express", level: 75, category: "backend", experienceLevel: 3 },
-  { name: "MongoDB", level: 85, category: "backend", experienceLevel: 4 },
-  { name: "TanStack", level: 40, category: "backend", experienceLevel: 1 },
-  { name: "PostgreSQL", level: 50, category: "backend", experienceLevel: 2 },
-  { name: "GraphQL", level: 50, category: "backend", experienceLevel: 2 },
+  { name: "Java", category: "backend", experienceLevel: 4 },
+  { name: "C++", category: "backend", experienceLevel: 4 },
+  { name: "Python", category: "backend", experienceLevel: 4 },
+  { name: "API Dev", category: "backend", experienceLevel: 3 },
+  { name: "Django", category: "backend", experienceLevel: 4 },
+  { name: "Java Spring", category: "backend", experienceLevel: 2 },
+  { name: "Node.js", category: "backend", experienceLevel: 4 },
+  { name: "Express", category: "backend", experienceLevel: 3 },
+  { name: "MongoDB", category: "backend", experienceLevel: 4 },
+  { name: "TanStack", category: "backend", experienceLevel: 1 },
+  { name: "PostgreSQL", category: "backend", experienceLevel: 2 },
+  { name: "GraphQL", category: "backend", experienceLevel: 2 },
 
   // Tools
-  { name: "Git/GitHub", level: 95, category: "tools", experienceLevel: 4 },
-  { name: "AWS, General", level: 75, category: "tools", experienceLevel: 3 },
-  { name: "AWS, EC2", level: 70, category: "tools", experienceLevel: 3 },
-  { name: "AWS, Lambda", level: 40, category: "tools", experienceLevel: 2 },
-  { name: "AWS, Route 53", level: 65, category: "tools", experienceLevel: 3 },
-  { name: "MS Azure", level: 40, category: "tools", experienceLevel: 1 },
-  { name: "Docker", level: 45, category: "tools", experienceLevel: 2 },
-  { name: "Figma", level: 40, category: "tools", experienceLevel: 1 },
-  { name: "VS Code", level: 95, category: "tools", experienceLevel: 4 },
-  { name: "Android Studio", level: 85, category: "tools", experienceLevel: 4 },
-  { name: "MS Word", level: 85, category: "tools", experienceLevel: 4 },
-  { name: "MS Excel", level: 90, category: "tools", experienceLevel: 4 },
+  { name: "Git/GitHub", category: "tools", experienceLevel: 5 },
+  { name: "AWS, General", category: "tools", experienceLevel: 3 },
+  { name: "AWS, EC2", category: "tools", experienceLevel: 3 },
+  { name: "AWS, Lambda", category: "tools", experienceLevel: 3 },
+  { name: "AWS, Route 53", category: "tools", experienceLevel: 3 },
+  { name: "MS Azure", category: "tools", experienceLevel: 1 },
+  { name: "Docker", category: "tools", experienceLevel: 2 },
+  { name: "Figma", category: "tools", experienceLevel: 1 },
+  { name: "VS Code", category: "tools", experienceLevel: 5 },
+  { name: "Android Studio", category: "tools", experienceLevel: 4 },
+  { name: "MS Word", category: "tools", experienceLevel: 4 },
+  { name: "MS Excel", category: "tools", experienceLevel: 4 },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
@@ -83,12 +82,15 @@ export const SkillsSection = () => {
 
         {/* Legend */}
         <div className="text-center mb-8">
+          <h4 className="text-md font-medium text-muted-foreground mb-2">
+            Experience Level Legend
+          </h4>
           <div className="flex justify-center gap-4 flex-wrap text-sm text-muted-foreground">
-            <span>1 - Beginner</span>
-            <span>2 - Learning</span>
-            <span>3 - Intermediate</span>
-            <span>4 - Advanced</span>
-            <span>5 - Expert</span>
+            <span>1 = Beginner</span>
+            <span>2 = Learning</span>
+            <span>3 = Intermediate</span>
+            <span>4 = Advanced</span>
+            <span>5 = Expert</span>
           </div>
         </div>
 
@@ -110,7 +112,7 @@ export const SkillsSection = () => {
           ))}
         </div>
 
-        {/* Skill Grid */}
+        {/* Skills Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredSkills.map((skill, key) => (
             <div
@@ -120,17 +122,32 @@ export const SkillsSection = () => {
               <div className="text-left mb-4">
                 <h3 className="font-semibold text-lg">{skill.name}</h3>
               </div>
-              <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
-                <div
-                  className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                  style={{ width: skill.level + "%" }}
-                />
-              </div>
-              <div className="text-right mt-1 text-sm text-muted-foreground">
-                <span>
-                  {skill.level}% | {skill.experienceLevel}/5 —{" "}
+
+              {/* Experience Level Label */}
+              <div className="text-center mb-2 h-5">
+                <span className="text-sm font-medium text-primary">
                   {getExperienceLabel(skill.experienceLevel)}
                 </span>
+              </div>
+
+              {/* Dots with labels */}
+              <div className="flex justify-between items-center mb-1">
+                {Array.from({ length: 5 }).map((_, i) => {
+                  const isActive = skill.experienceLevel === i + 1;
+                  return (
+                    <div key={i} className="flex flex-col items-center">
+                      <div
+                        className={cn(
+                          "w-4 h-4 rounded-full border border-primary mb-1 transition-all duration-300",
+                          isActive ? "bg-primary animate-pingOnce" : "bg-transparent"
+                        )}
+                      />
+                      <span className="text-xs text-muted-foreground">
+                        {i + 1}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           ))}
