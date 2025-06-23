@@ -6,7 +6,7 @@ const projects = [
     title: "Digital Sports Solutions",
     description: "Founding engineer at DSS™ building tinyLeague™: a SaaS solution to revolutionize sports leagues.",
     image: "/projects/dss_page.png",
-    tags: ["MERN Stack", "Agile/Scrum", "Full-Stack"],
+    tags: ["MERN Stack", "Agile Methodology", "Full-Stack"],
     demoUrl: "https://www.digitalsportssolutions.com/",
     githubUrl: "https://github.com/Digital-Sports-Solutions-Official",
   },
@@ -16,7 +16,7 @@ const projects = [
     description:
       "Social web platform for connecting users learning new languages to native speakers.",
     image: "/projects/voqa_page.png",
-    tags: ["MERN Stack", "Stream API", "TailwindCSS"],
+    tags: ["MERN Stack", "Stream API", "Tailwind"],
     demoUrl: "https://voqa.onrender.com/",
     githubUrl: "https://github.com/mawilson0410/voqa",
   },
@@ -39,6 +39,16 @@ const projects = [
     tags: ["React Native", "Java", "Full-Stack"],
     demoUrl: "https://play.google.com/store/apps/details?id=com.demo.tinyLeague_Hub",
     githubUrl: "https://github.com/Digital-Sports-Solutions-Official",
+  },
+  {
+    id: 5,
+    title: "Portfolio Web App",
+    description:
+      "This is the page you are looking at right now! Built and maintained by me.",
+    image: "/projects/portfolio_page.png",
+    tags: ["TSX React", "HTML/CSS", "Deployment"],
+    demoUrl: "https://michaelawilson.vercel.app/",
+    githubUrl: "https://github.com/mawilson0410/michaelwilson",
   },
 ];
 
