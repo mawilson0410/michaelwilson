@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Digital Sports Solutions",
-    description: "Founding engineer at DSS™ building tinyLeague™: a SaaS solution to revolutionize sports leagues.",
+    description: "Founding engineer at DSS™ building tinyLeague: a SaaS solution to revolutionize sports leagues.",
     image: "/projects/dss_page.png",
     tags: ["MERN Stack", "Agile Methodology", "Full-Stack"],
     demoUrl: "https://www.digitalsportssolutions.com/",
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "DSS™ Docs",
+    title: "DSS Docs",
     description:
       "Fully featured, interactive documentation for hardware ecosystem and mobile application.",
     image: "/projects/dss_docs_page.png",
@@ -34,10 +34,10 @@ const projects = [
     id: 4,
     title: "tinyLeague™ Hub",
     description:
-      "Mobile application for the tinyLeague™ ecosystem allowing robust control of hardware, and more.",
+      "Mobile iOS and Android application for the tinyLeague ecosystem allowing robust control of client hardware",
     image: "/projects/tlhub_page.png",
     tags: ["React Native", "Java", "Full-Stack"],
-    demoUrl: "https://play.google.com/store/apps/details?id=com.demo.tinyLeague_Hub",
+    demoUrl: "https://apps.apple.com/us/app/tinyleague-hub/id6748661836",
     githubUrl: "https://github.com/Digital-Sports-Solutions-Official",
   },
   {
@@ -132,7 +132,7 @@ export const ProjectsSection = () => {
             target="_blank"
             href="https://github.com/mawilson0410"
           >
-            Check My Github <ArrowRight size={16} />
+            Check Out My Github <ArrowRight size={16} />
           </a>
         </div>
       </div>
