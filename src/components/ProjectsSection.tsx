@@ -50,6 +50,16 @@ const projects = [
     demoUrl: "https://michaelawilson.vercel.app/",
     githubUrl: "https://github.com/mawilson0410/michaelwilson",
   },
+  {
+    id: 6,
+    title: "Kitchen Management Application",
+    description:
+      "Kitchen logistics application for high traffic food management and demand analysis.",
+    image: "/projects/kitchen_app_screenshot.png",
+    tags: ["TSX React", "Java", "PostgreSQL"],
+    demoUrl: "https://stpaul-kitchen-app.vercel.app/",
+    githubUrl: "https://github.com/mawilson0410/stpaul-kitchen-app",
+  },
 ];
 
 export const ProjectsSection = () => {

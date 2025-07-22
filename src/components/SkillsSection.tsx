@@ -29,7 +29,7 @@ const skills: Skill[] = [
   { name: "Express", category: "backend", experienceLevel: 3 },
   { name: "MongoDB", category: "backend", experienceLevel: 4 },
   { name: "TanStack", category: "backend", experienceLevel: 1 },
-  { name: "PostgreSQL", category: "backend", experienceLevel: 2 },
+  { name: "PostgreSQL", category: "backend", experienceLevel: 3 },
   { name: "GraphQL", category: "backend", experienceLevel: 2 },
 
   // Tools
