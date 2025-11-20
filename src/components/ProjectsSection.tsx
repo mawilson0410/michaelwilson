@@ -12,13 +12,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Voqa",
+    title: "LiveShot",
     description:
-      "Social web platform for connecting users learning new languages to native speakers.",
-    image: "/projects/voqa_page.png",
-    tags: ["MERN Stack", "Stream API", "Tailwind"],
-    demoUrl: "https://voqa.onrender.com/",
-    githubUrl: "https://github.com/mawilson0410/voqa",
+      "LiveShot is a basketball shooting test application that provides users with real time feedback and analysis of their play",
+    image: "/projects/liveshot_page.png",
+    tags: ["PERN Stack", "Tailwind + DaisyUI", "PostgreSQL"],
+    demoUrl: "https://live-shot.vercel.app/",
+    githubUrl: "https://github.com/mawilson0410/LiveShot",
   },
   {
     id: 3,

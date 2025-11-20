@@ -62,7 +62,7 @@ export const ContactSection = () => {
         <div>
           <h4 className="font-medium">Location</h4>
           <span className="text-muted-foreground hover:text-primary transition-colors">
-            Columbus, OH, USA
+            Cleveland, OH, USA
           </span>
         </div>
       </div>
